@@ -5,16 +5,16 @@
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
 }
-
-div {
-    display: flex;
+.login{
+    height:100vh;
+    margin: top 30px;
+    width:100%;
+    display:flex;
     justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right, #3f5efb, #fc466b);
-    height: 100vh;
-    margin-top: 40px;
-    width: 100%;
-    position: relative;
+    align-items:center;
+    background:linear-gradient(to right,#a1a6bc,#943004);
+    font-family: 'Poppins', sans-serif;
+    cursor:pointer;
 }
 
 form {
