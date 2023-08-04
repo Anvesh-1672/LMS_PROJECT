@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import { SideNavbarComponent } from './side-navbar/side-navbar.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { SideNavbarComponent } from './side-navbar/side-navbar.component';
     AppComponent,
     HomePageComponent,
     HeaderNavbarComponent,
-    SideNavbarComponent
+    SideNavbarComponent,
+    LoginComponent
    
   ],
   imports: [
