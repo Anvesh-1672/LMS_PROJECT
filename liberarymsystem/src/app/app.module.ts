@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -7,6 +7,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import { SideNavbarComponent } from './side-navbar/side-navbar.component';
 import { LoginComponent } from './login/login.component';
+
+
 
 
 @NgModule({
@@ -20,7 +22,8 @@ import { LoginComponent } from './login/login.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

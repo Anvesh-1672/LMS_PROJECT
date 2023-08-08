@@ -6,7 +6,7 @@
 .Animation{
     
     animation-name: movingAnimation;
-    animation-duration: 50s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
 }
 @keyframes movingAnimation{
