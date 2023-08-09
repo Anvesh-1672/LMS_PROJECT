@@ -86,7 +86,7 @@
   
     color: white;
     display: flex;
-    left: 1000px;
+    left: 800px;
     position: relative;
     top: -43px;
     padding-right:30px;
@@ -99,7 +99,7 @@
 .footer{
     width:100%;
     padding: 70px 30px 20px;
-    height: 45vh;
+    height: 50vh;
     background-color: #00003B;
     
 }
