@@ -12,12 +12,7 @@ import { AboutpageComponent } from './aboutpage/aboutpage.component';
 
 
 
-const appRoute: Routes=[
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  {path:'/home', component:HomePageComponent},
-  {path:'/login',component:LoginComponent},
-  {path:'/about',component:AboutpageComponent}
-]
+
 
 @NgModule({
   declarations: [
@@ -32,7 +27,7 @@ const appRoute: Routes=[
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(appRoute)
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
