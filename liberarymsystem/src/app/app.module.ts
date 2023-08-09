@@ -11,9 +11,6 @@ import { LoginComponent } from './login/login.component';
 import { AboutpageComponent } from './aboutpage/aboutpage.component';
 
 
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +24,7 @@ import { AboutpageComponent } from './aboutpage/aboutpage.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-  
+
   ],
   providers: [],
   bootstrap: [AppComponent]
