@@ -24,6 +24,7 @@ import { AboutpageComponent } from './aboutpage/aboutpage.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
