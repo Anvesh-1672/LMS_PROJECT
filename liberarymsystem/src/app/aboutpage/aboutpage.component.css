@@ -30,6 +30,7 @@
     width:100%;
     padding: 70px 30px 20px;
     height: 50vh;
+    
     background-color: #00003B;
     
 }
@@ -95,3 +96,53 @@
     font-weight: 400;
     margin: 0px 5px;
 }
+/* photos */
+.bgc{
+    
+    animation-name: movingAnimation;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    top: -50px;
+    justify-content: center;
+    display: block;
+    align-items: center;
+    color: #111;
+    font-size: medium;
+    text-align: center;
+    font-family: sans-serif;
+}
+.head{
+    
+    padding-top: 100px;
+    height:-10px;
+    color: #111;
+    font-size: 50px;
+
+}
+@keyframes movingAnimation{
+    0%{
+        background: url('../../assets/Images/img11.jpg');
+        width: 100%;
+        height: 150vh;
+        top: -20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        place-items: center;
+    }
+    50%{
+        background: url('../../assets/Images/img12.jpg');
+        width: 100%;
+        height: 150vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    100%{
+        background: url('../../assets/Images/img13.jpg');
+        width: 100%;
+        height: 150vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
