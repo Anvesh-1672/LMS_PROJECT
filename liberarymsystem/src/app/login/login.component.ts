@@ -19,12 +19,16 @@ export class LoginComponent {
   handlelogin(){
 
     if(this.hardcodedAuthenticationService.authenticate(this.username,this.password)){
-      this.router.navigate(['home'])
+      this.router.navigate(['home']);
       this.invalidlogin=false;
     }
     else{
       this.invalidlogin=true;
     }
+  }
+  register()
+  {
+    this.router.navigate(['register']);
   }
 
 }

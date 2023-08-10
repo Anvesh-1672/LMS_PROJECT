@@ -1,6 +1,7 @@
 <div class="login">
     <form class="amb">
         <h1>LOGIN</h1>
+
         <label>Email ID</label>
         <input type="email" name="username" placeholder="Enter email" [(ngModel)]="username">
         <label>Password</label>
@@ -9,6 +10,7 @@
         <h6 *ngIf="invalidlogin">{{invalid}}</h6>
 
         <button type="button" (click)="handlelogin()">Login</button>
+        <button type="button" (click)="register()" >Register Here</button>
         <a href="#">Forgot Password?</a>
     </form>
 </div>
