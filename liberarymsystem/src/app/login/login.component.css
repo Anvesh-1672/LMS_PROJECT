@@ -6,15 +6,12 @@
     cursor: pointer;
 }
 .login{
-    height:100vh;
-    margin: top 30px;
-    width:100%;
     display:flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right, #3f5efb, #fc466b);
     height: 100vh;
-    margin: top 40px;
+    top: -23px;
     width: 100%;
     position: relative;
  
@@ -116,4 +113,100 @@ h6{
     padding-left:40px;
     margin-top: -30px;
     font-size: medium;
+}
+/* /headerpart css/ */
+.header{
+    display: block;
+    height: 65px;
+    width:100%;
+    background-color: #00003B;
+    
+}
+.header h2{
+    color: white;
+    padding-top:19px;
+    margin-left: 10px;
+}
+.header ul a{
+  
+    color: white;
+    display: flex;
+    left: 1000px;
+    position: relative;
+    top: -43px;
+    padding-right:30px;
+    padding-left: 30px;
+    float: left;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* footer part */
+.footer{
+    width:100%;
+    padding: 70px 30px 20px;
+    margin-top: -23px;
+    background-color: #00003B;
+    
+}
+.SocialIcons{
+    display: flex;
+    justify-content: center;
+}
+.SocialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.SocialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: o.9;
+
+}
+.SocialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.SocialIcons a:hover i{
+ color: white;
+ transition: 0.5s;
+}
+.footnav{
+    margin: 30px 0;
+}
+.footnav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    
+}
+.footer ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footer ul li a{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+  color: white;
+
+}
+.designer{
+    opacity: 0.7;
+    text-transform:uppercase ;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
 }
