@@ -15,13 +15,15 @@
 .sidenav .logo_content .logo{
     color: #fff;
     display: flex;
-    height: 50px;
+    height: 60px;
     width: 100%;
     align-items: center;
+    left: 40px;
 
 
 }
 .logo_content .logo i{
+   
     font-size: 28px;
     margin-right: 5px;
 
@@ -30,6 +32,7 @@
 .logo_content .logo .logo_name{
     font-size: 20px;
     font-weight:400px;
+    
 }
 .sidenav #btn{
     color: #fff;
@@ -45,9 +48,12 @@
 }
 .sidenav ul{
     margin-top: 20px;
+    margin-left: -10px;
 }
 .logo_name{
     color: #fff;
+    margin-top: 15px;
+    margin-left: 50px;
 }
 .sidenav ul li{
     height: 50px;
