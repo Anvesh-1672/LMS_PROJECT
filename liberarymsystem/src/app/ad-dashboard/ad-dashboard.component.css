@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidenav {
+    height: 100%;
+    width: 240px;
+    background: #11101d;
+    padding: 6px 14px;
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 6px 14px;
+    top: 0;
+    left: 0;
+    position: fixed;
+
+}
+
+.sidenav .logo_content .logo {
+    color: #fff;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    left: 40px;
+
+
+}
+
+.logo_content .logo i {
+
+    font-size: 28px;
+    margin-right: 5px;
+
+
+}
+
+.logo_content .logo .logo_name {
+    font-size: 20px;
+    font-weight: 400px;
+
+}
+
+.sidenav #btn {
+    color: #fff;
+    position: absolute;
+    left: 90%;
+    top: 6px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
+}
+
+.sidenav ul {
+    margin-top: 20px;
+    margin-left: -10px;
+}
+
+.logo_name {
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.sidenav ul li {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    list-style: none;
+    margin: 0 5px;
+    text-decoration: none;
+    list-style: none;
+    line-height: 50px;
+
+}
+
+.sidenav ul li a {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    border-radius: 12px;
+}
+
+.sidenav ul li a:hover {
+    color: #11101d;
+    background: #fff;
+}
+
+.sidenav ul li a i {
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+
+}
+
+/* ---------------header part css----------------------- */
+.head {
+
+    height: 58px;
+    width: 100%;
+    background-color: #00003B;
+    position: relative;
+    left: 45px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.head h1 {
+    position: relative;
+    left: 207px;
+    font-size: 25px;
+    top: 18px;
+}
+
+.searchbar {
+    position: relative;
+    left: 700px;
+    top: -8px;
+}
+
+.searchbar input {
+    padding: 13px 102px 1px 15px;
+    margin-top: -30px;
+    border-radius: 8px;
+}
+
+.searchbar button {
+    padding: 12px 10px 2px 14px;
+    position: relative;
+    top: -8px;
+}
+
+.searchbar type {
+    padding-left: 8px;
+}
+
+/* ----------boxes-------------------- */
+.boxes ul{
+    display: flex;
+    position: relative;
+    left: 207px;
+    
+}
+
+.boxes .box1 {
+    padding: 97px 20px 20px 20px;
+    background-color:#0099FF;
+    width: 15%;
+    position: relative;
+    top: 36px;
+    left: 59px;
+    border-radius: 15px;
+}
+
+.boxes .box2 {
+    padding: 97px 20px 20px 20px;
+    background-color: #FF5500;
+    width: 15%;
+    position: relative;
+    top: 36px;
+    left: 120px;
+    border-radius: 15px;
+}
+.boxes .box3{
+    padding: 97px 20px 20px 20px;
+    background-color: #00CBA9;
+    width: 15%;
+    position: relative;
+    top: 36px;
+    left: 190px;
+    border-radius: 15px;
+}
+.boxes .box4 {
+    padding: 97px 20px 20px 20px;
+    background-color: #273036;
+    width: 15%;
+    position: relative;
+    top: 36px;
+    left: 260px;
+    border-radius: 15px;
+}
