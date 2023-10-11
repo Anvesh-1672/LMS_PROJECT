@@ -13,6 +13,7 @@ import { ErrorComponent } from './error/error.component';
 import { RegisterComponent } from './register/register.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { AdminprofilepageComponent } from './adminprofilepage/adminprofilepage.component';
+import { AdDashboardComponent } from './ad-dashboard/ad-dashboard.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { AdminprofilepageComponent } from './adminprofilepage/adminprofilepage.c
     ErrorComponent,
     RegisterComponent,
     UserProfileComponent,
-    AdminprofilepageComponent
+    AdminprofilepageComponent,
+    AdDashboardComponent
    
   ],
   imports: [

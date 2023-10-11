@@ -13,18 +13,15 @@
     margin-left: 10px;
 }
 .header ul a{
-  
     color: white;
-    display: flex;
-    left: 750px;
-    position: relative;
-    top: -43px;
-    padding-right:30px;
-    padding-left: 30px;
-   
-    float: left;
-    font-size: 20px;
     text-decoration: none;
+    margin-left: 50px;
+    font-family: sans-serif;
+    font-size: 20px;
+    display: inline;
+    position: relative;
+    left: 900px;
+    top: -26px;
 }
 .footer{
     width:100%;
