@@ -1,75 +1,246 @@
+
 <div class="head">
     <h1>Admin DashBoard</h1>
     <div class="searchbar">
         <input type="text" placeholder="search.....">
-        <button type="button" class="btn btn-primary">
-            <i class="fas fa-search"></i>
-          </button>
+        <button type="button" class="btn btn-primary"><i class="fas fa-search"></i></button>
     </div>
 </div>
-
-<div class="sidenav">
-    <div clas="logo_content">
-        <div class="logo">
-            <div class="logo_name">Admin</div>
+<div class="bg">
+    <div class="username">
+        <h2>Hello,<span style="color: #AA336A;">Anvesh!</span></h2>
+        <h4>Oct 12,2023 | Friday,11:00AM</h4>
+    </div>
+    <div class="boxes">
+        <ul>
+            <div class="box1">
+                <i class='fas fa-user-friends' style='font-size:30px'></i>
+                <h5>1223</h5>
+                <h4>Total Visitors</h4>
+            </div>
+            <div class="box2">
+                <i class="fa-solid fa-book" style='font-size:30px'></i>
+                <h5>740</h5>
+                <h4>Borrowed Books</h4>
+            </div>
+            <div class="box3">
+                <i class="fa fa-book" style="font-size:30px;"></i>
+                <h5>740</h5>
+                <h4>Overdue Books</h4>
+            </div>
+            <div class="box4">
+                <i class="fa-solid fa-users-line" style='font-size:30px'></i>
+                <h5>102</h5>
+                <h4>New Members</h4>
+            </div>
+        </ul>
+    </div>
+    <div class="tables">
+        <div class="tabhead">
+            <h4>Overdue Books</h4>
+            <h3>Books List</h3>
         </div>
-        <div>
-            <i class='bx bx-menu' id="btn"></i>
-        </div> 
-        <div>
-            <ul class="na_list">
-                <li>
-                    <a href="#">
-                    <i class='bx bx-home'></i>
-                    <span class="links_names">Home</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="/dashboard">
-                    <i class='bx bxs-grid-alt'></i>
-                    <span class="links_names">DashBoard</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class='bx bxs-user-circle'></i>
-                    <span class="links_names">User</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                    <i class='bx bx-book'></i>
-                    <span class="links_names">Books</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class='bx bxs-user-detail'></i>
-                    <span class="links_names">Customres</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                    <i class='bx bx-cog'></i>
-                    <span class="links_names">Settings</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                    <i class='bx bx-log-out' ></i>
-                    <span class="links_names">Logout</span>
-                    </a>
-                </li>
-            </ul>
-        </div>     
+        <ol>
+            <div class="tab1">
+                <table>
+
+                    <tr>
+                        <th>Id</th>
+                        <th>Member</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Overdue</th>
+                        <th>ReturnDate</th>
+                    </tr>
+                    <tbody class="Scroll">
+                        <tr>
+                            <td>1</td>
+                            <td>John Doe</td>
+                            <td>Book Title 1</td>
+                            <td>Author 1</td>
+                            <td>No</td>
+                            <td>2023-10-15</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                            <td>Yes</td>
+                            <td>2023-10-12</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                            <td>Yes</td>
+                            <td>2023-10-12</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                            <td>Yes</td>
+                            <td>2023-10-12</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                            <td>Yes</td>
+                            <td>2023-10-12</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                            <td>Yes</td>
+                            <td>2023-10-12</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                            <td>Yes</td>
+                            <td>2023-10-12</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                            <td>Yes</td>
+                            <td>2023-10-12</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                            <td>Yes</td>
+                            <td>2023-10-12</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                            <td>Yes</td>
+                            <td>2023-10-12</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                            <td>Yes</td>
+                            <td>2023-10-12</td>
+                        </tr>
+
+                </table>
+            </div>
+
+            <div class="tab2">
+                
+                <table>
+
+                    <tr>
+                        <th>BookId</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Available</th>
+
+                    </tr>
+                    <tbody class="Scroll">
+                        <tr>
+                            <td>1</td>
+                            <td>John Doe</td>
+                            <td>Book Title 1</td>
+                            <td>Author 1</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Jane Smith</td>
+                            <td>Book Title 2</td>
+                            <td>Author 2</td>
+                          
+                        </tr>
+
+                </table>
+            </div>
+
+        </ol>
     </div>
 </div>
-<div class="boxes">
-    <ul>
-    <div class="box1"></div>
-    <div class="box2"></div>
-    <div class="box3"></div>
-    <div class="box4"></div>
+<div class="sid">
 
-    </ul>
 </div>

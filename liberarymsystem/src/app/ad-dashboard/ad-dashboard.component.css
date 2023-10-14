@@ -3,103 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.sidenav {
-    height: 100%;
-    width: 240px;
-    background: #11101d;
-    padding: 6px 14px;
+.username{
+    margin-left: 40px;
+    color: #00003B;
+}
+.username h2{
     position: relative;
-    min-height: 100vh;
-    overflow: hidden;
-    padding: 6px 14px;
-    top: 0;
-    left: 0;
-    position: fixed;
-
+    top: 15px;
+    font-family: sans-serif;
 }
-
-.sidenav .logo_content .logo {
-    color: #fff;
-    display: flex;
-    height: 60px;
-    width: 100%;
-    align-items: center;
-    left: 40px;
-
-
-}
-
-.logo_content .logo i {
-
-    font-size: 28px;
-    margin-right: 5px;
-
-
-}
-
-.logo_content .logo .logo_name {
-    font-size: 20px;
-    font-weight: 400px;
-
-}
-
-.sidenav #btn {
-    color: #fff;
-    position: absolute;
-    left: 90%;
-    top: 6px;
-    font-size: 20px;
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    line-height: 50px;
-    transform: translateX(-50%);
-}
-
-.sidenav ul {
-    margin-top: 20px;
-    margin-left: -10px;
-}
-
-.logo_name {
-    color: #fff;
-    margin-top: 15px;
-    margin-left: 50px;
-}
-
-.sidenav ul li {
-    height: 50px;
-    width: 100%;
+.username h4{
     position: relative;
-    list-style: none;
-    margin: 0 5px;
-    text-decoration: none;
-    list-style: none;
-    line-height: 50px;
-
-}
-
-.sidenav ul li a {
-    color: #fff;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    transition: all 0.4s ease;
-    border-radius: 12px;
-}
-
-.sidenav ul li a:hover {
-    color: #11101d;
-    background: #fff;
-}
-
-.sidenav ul li a i {
-    height: 50px;
-    min-width: 50px;
-    border-radius: 12px;
-    line-height: 50px;
-
+    top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
 }
 
 /* ---------------header part css----------------------- */
@@ -109,14 +27,15 @@
     width: 100%;
     background-color: #00003B;
     position: relative;
-    left: 45px;
+    left: 0px;
     color: white;
+    overflow: hidden;
     font-family: sans-serif;
 }
 
 .head h1 {
     position: relative;
-    left: 207px;
+    left: 27px;
     font-size: 25px;
     top: 18px;
 }
@@ -133,58 +52,367 @@
     border-radius: 8px;
 }
 
-.searchbar button {
-    padding: 12px 10px 2px 14px;
+.searchbar button i{
+    position:absolute;
+    padding: 40px 30px 10px 10px;
+    position: relative;
+
+    border-radius: 2px;
+    left: 9px;
+    color: white;
+    margin-top: -30px;
+}
+button{
     position: relative;
     top: -8px;
 }
 
-.searchbar type {
-    padding-left: 8px;
-}
+ 
+
+
 
 /* ----------boxes-------------------- */
 .boxes ul{
     display: flex;
-    position: relative;
-    left: 207px;
+    width: 100%;
+    margin-top: 36px;
+
+    
+ 
     
 }
 
 .boxes .box1 {
-    padding: 97px 20px 20px 20px;
+    padding:34px 1px 17px 20px;
     background-color:#0099FF;
-    width: 15%;
+    width: 18%;
     position: relative;
     top: 36px;
     left: 59px;
     border-radius: 15px;
+    margin-left: 35px;
+}
+.boxes .box1:hover{
+    border: 1px solid black;
+    transform: translateY(20px);
+    transition-duration: 2s ;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  
+}
+.boxes .box2:hover{
+    border: 1px solid black;
+    transform: translateY(20px);
+    transition-duration: 2s ;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  
+}
+.boxes .box3:hover{
+    border: 1px solid black;
+    transform: translateY(20px);
+    transition-duration: 2s ;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  
+}
+.boxes .box4:hover{
+    border: 1px solid black;
+    transform: translateY(20px);
+    transition-duration: 2s ;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  
 }
 
+
 .boxes .box2 {
-    padding: 97px 20px 20px 20px;
+    padding: 34px 1px 17px 20px;
     background-color: #FF5500;
-    width: 15%;
+    width: 18%;
     position: relative;
     top: 36px;
     left: 120px;
     border-radius: 15px;
 }
 .boxes .box3{
-    padding: 97px 20px 20px 20px;
-    background-color: #00CBA9;
-    width: 15%;
+    padding: 34px 1px 17px 20px;
+    background-color: #FF0000;
+    width: 18%;
     position: relative;
     top: 36px;
     left: 190px;
     border-radius: 15px;
 }
 .boxes .box4 {
-    padding: 97px 20px 20px 20px;
+    padding:34px 1px 17px 20px;
     background-color: #273036;
-    width: 15%;
+    width: 18%;
     position: relative;
     top: 36px;
     left: 260px;
     border-radius: 15px;
+}
+/* -----------box1----------- */
+.box1, i{
+    color: white;
+    position: relative;
+    left:150px;
+    top: 2px;
+    padding: 0;
+}
+.box1 h4,h5{
+    color: white;
+    position: relative;
+    top: -25px;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+.box1 h5{
+    position: relative;
+    top: -35px;
+    font-weight: bold;
+}
+/* ---------------box2------------ */
+.box2 i{
+    color: white;
+    position: relative;
+    left:160px;
+    top: 2px;
+    padding: 0;
+}
+.box2 h4,h5{
+    color: white;
+    position: relative;
+    top: -25px;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+.box2 h5{
+    position: relative;
+    top: -35px;
+    font-weight: bold;
+}
+/* ----------------box3------------------- */
+.box3 i{
+    color: white;
+    position: relative;
+    left:160px;
+    top: 2px;
+    padding: 0;
+}
+.box3 h4,h5{
+    color: white;
+    position: relative;
+    top: -25px;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+.box3 h5{
+    position: relative;
+    top: -35px;
+    font-weight: bold;
+}
+/* --------------box4--------------- */
+.box4 i{
+    color: white;
+    position: relative;
+    left:160px;
+    top: 2px;
+    padding: 0;
+}
+.box4 h4,h5{
+    color: white;
+    position: relative;
+    top: -25px;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+.box4 h5{
+    position: relative;
+    top: -35px;
+    font-weight: bold;
+}
+/* -------------tables-------------------- */ 
+.tables ol{
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top:99px;
+   
+    
+}
+.tables .tab1{
+    width: 50%;
+    height: 500px;
+    background-color:white;
+    margin-left: 25px;
+    display: flex;
+    border-radius: 18px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);   
+
+}
+.tables .tab2{
+    width: 50%;
+    height: 500px;
+    background-color:white;
+    display: flex;
+    margin-left: 35px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+
+}
+.bg{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 84%;
+    margin-left:234px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    height: 900px;
+    display: block;
+    margin-top: 25px;
+ 
+}
+
+.tab1 table th{
+    position:  relative;
+    top:-27px;
+    padding-left: 10px;
+    font-family: sans-serif;
+    display: fixed;
+   
+}
+.tab1 table td{
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    top: 5px;
+    
+}
+.tab1 table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+.tab1 table td {
+    padding: 9px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px;
+    font-family: sans-serif;
+  }
+  .tab1 table{
+    margin-top: 50px;
+  }
+.tab1{
+    overflow: auto;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    }
+    ::-webkit-scrollbar-track {
+    border: 1px solid yellowgreen;
+    border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+    background: yellowgreen;
+    border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+    background: #88ba1c;
+    }
+  .tables .tabhead{
+    display: inline;
+  }
+  /* ----------tab2------------ */
+  .tab2 table th{
+    position:  relative;
+    top:-27px;
+    padding-left: 10px;
+    font-family: sans-serif;
+    display: fixed;
+   
+}
+.tab2 table td{
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    top: 5px;
+    
+}
+.tab2 table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+.tab1 tr:hover {
+    background-color: coral;
+}
+.tab2 tr:hover {
+    background-color: coral;
+}
+.tab2 table td {
+    padding: 9px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px;
+    font-family: sans-serif;
+  }
+  .tab2 table{
+    margin-top: 50px;
+  }
+.tab2{
+    overflow: auto;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    }
+    ::-webkit-scrollbar-track {
+    border: 1px solid yellowgreen;
+    border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+    background: yellowgreen;
+    border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+    background: #88ba1c;
+    }
+  .tables .tabhead{
+    display: inline;
+  }
+  .tables .tabhead h4{
+    position: relative;
+    top: 97px;
+    display: inline;
+    left: 43px;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.tables .tabhead h3{
+    position: relative;
+    top: 97px;
+    display: inline;
+    left: 520px;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+/* ---------------sidenav------------- */
+.sid{
+    width: 15%;
+    height: 950px;
+    background-color: #0099FF;
+    margin-left: -40px;
+    margin-top: -925px;
+
 }
